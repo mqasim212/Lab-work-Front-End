@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  color: pink;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: orange;
+  box-sizing: border-box;
+  flex-basis: 15vw;
+  flex shrink: 0;
+}
+
+nav a {
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: background-color 0.4s;
+}
+
+nav a:hover {
+  background-color: #36f;
+}
+
+header {
+  background-color: #63f;
+}
+
+main {
+  overflow: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+section{
+  background-color: #66d;
+  box-sizing: border-border-box;
+}
+
+header, section {
+  padding: 0 0.5em;
+  overflow: auto;
+}
