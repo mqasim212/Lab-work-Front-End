@@ -7,7 +7,7 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  background-color: orange;
+  background-color: yellow;
   box-sizing: border-box;
   flex-basis: 15vw;
   flex shrink: 0;
@@ -21,7 +21,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #36f;
+  background-color: grey;
 }
 
 header {
